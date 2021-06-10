@@ -4,11 +4,7 @@ const expressLayouts = require('express-ejs-layouts')
 const app = express()
 const port = 3693
 
-app.use(express.static('public'))
-app.use('/css', express.static(__dirname + 'public/css'))
-
 app.use(expressLayouts)
-app.set('layout','layouts/full-width')
 app.set('view engine', 'ejs')
 
 app.get('', (req, res) => {
