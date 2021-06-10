@@ -1,0 +1,16 @@
+
+body {
+    background-color: slategray;
+    font-size: 26px;
+}
+
+.wrapper {
+    width: 700px;
+    margin: 0 auto;
+    background-color: rgb(228, 197, 197);
+    padding: 10px;
+}
+
+header, footer {
+    background-color: red;
+}
